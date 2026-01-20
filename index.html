@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Star Core Cutting Services - Mussafah, Abu Dhabi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e3a8a', // Deep Blue
+                        secondary: '#f59e0b', // Amber/Gold
+                        accent: '#e11d48', // Rose Red (for action buttons)
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-50">
+
+    <!-- Header / Navbar -->
+    <header class="bg-white shadow-md fixed w-full z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-star text-secondary text-2xl"></i>
+                <div>
+                    <h1 class="text-xl font-bold text-primary leading-none">LUCKY STAR</h1>
+                    <p class="text-xs text-gray-600 font-semibold tracking-wider">CORE CUTTING SERVICES</p>
+                </div>
+            </div>
+            
+            <nav class="hidden md:flex space-x-6 font-medium text-gray-700">
+                <a href="#home" class="hover:text-primary transition">Home</a>
+                <a href="#about" class="hover:text-primary transition">About Us</a>
+                <a href="#services" class="hover:text-primary transition">Services</a>
+                <a href="#contact" class="hover:text-primary transition">Contact</a>
+            </nav>
+
+            <a href="tel:+971509600595" class="bg-accent hover:bg-red-700 text-white px-5 py-2 rounded-full font-bold transition shadow-lg flex items-center gap-2 animate-pulse">
+                <i class="fa-solid fa-phone"></i> Call Now
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-primary text-white pt-32 pb-20 px-4">
+        <div class="absolute inset-0 bg-black opacity-50 z-0"></div>
+        <!-- Background Image Placeholder - In a real site, use a real image url here -->
+        <div class="absolute inset-0 z-[-1] bg-[url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center"></div>
+        
+        <div class="container mx-auto relative z-10 text-center">
+            <h2 class="text-4xl md:text-6xl font-bold mb-4">Professional Core Cutting & Concrete Services</h2>
+            <p class="text-xl md:text-2xl mb-8 text-gray-200">Precision, Safety, and Excellence in Abu Dhabi & UAE</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="tel:+971509600595" class="bg-secondary hover:bg-amber-600 text-white text-lg px-8 py-3 rounded-md font-bold transition shadow-lg flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-mobile-screen-button"></i> +971 50 960 0595
+                </a>
+                <a href="#contact" class="bg-transparent border-2 border-white hover:bg-white hover:text-primary text-white text-lg px-8 py-3 rounded-md font-bold transition">
+                    Get a Quote
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features / Why Choose Us -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="p-6 border rounded-lg shadow-sm hover:shadow-md transition">
+                    <i class="fa-solid fa-helmet-safety text-5xl text-secondary mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Expert Team</h3>
+                    <p class="text-gray-600">Highly trained professionals with years of experience in core cutting.</p>
+                </div>
+                <div class="p-6 border rounded-lg shadow-sm hover:shadow-md transition">
+                    <i class="fa-solid fa-stopwatch text-5xl text-secondary mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Timely Delivery</h3>
+                    <p class="text-gray-600">We respect your deadlines and deliver quality work on time.</p>
+                </div>
+                <div class="p-6 border rounded-lg shadow-sm hover:shadow-md transition">
+                    <i class="fa-solid fa-certificate text-5xl text-secondary mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Quality Assurance</h3>
+                    <p class="text-gray-600">Top-notch equipment and techniques ensuring precise results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Construction Work" class="rounded-lg shadow-xl">
+            </div>
+            <div class="md:w-1/2">
+                <h2 class="text-3xl font-bold text-primary mb-4">About Lucky Star</h2>
+                <p class="text-gray-700 mb-4 leading-relaxed">
+                    Lucky Star Core Cutting Services is a leading provider of concrete cutting and core drilling solutions in Abu Dhabi. Located in Mussafah 9, we serve the entire UAE region with dedication and expertise.
+                </p>
+                <p class="text-gray-700 mb-6 leading-relaxed">
+                    We pride ourselves on using the latest technology and equipment to ensure high-quality results while maintaining safety standards and minimizing disruption to your project. Whether it's a small residential task or a large industrial project, we are ready to serve you.
+                </p>
+                <ul class="space-y-2 mb-6">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-600"></i> Core Drilling</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-600"></i> Concrete Cutting</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-600"></i> Wall Sawing</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-600"></i> Slab Cutting</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-primary mb-12">Our Services</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Service 1: Core Cutting -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow hover:shadow-lg transition flex flex-col md:flex-row">
+                    <div class="md:w-2/5 h-64 md:h-auto relative">
+                         <img src="https://images.unsplash.com/photo-1590059390492-d5495eb83089?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Core Cutting" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-3/5">
+                        <h3 class="text-2xl font-bold mb-3 text-primary">Core Cutting</h3>
+                        <p class="text-gray-600 mb-4">Precision circular cutting for reinforced concrete, masonry, and asphalt. Our diamond core drilling technology ensures smooth, accurate holes with no vibration.</p>
+                        <h4 class="font-bold text-sm text-gray-800 mb-2">Key Applications:</h4>
+                        <ul class="text-sm text-gray-600 space-y-1 mb-4 list-disc list-inside">
+                            <li>HVAC ducts, plumbing pipes, and electrical cables.</li>
+                            <li>Anchor bolt holes and structural testing samples.</li>
+                            <li>Sizes ranging from 10mm to 1000mm diameter.</li>
+                            <li>Depth capabilities for thick walls and foundations.</li>
+                        </ul>
+                        <a href="#contact" class="text-secondary font-bold hover:text-amber-600 inline-flex items-center gap-1">Request Quote <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 2: Wall Sawing -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow hover:shadow-lg transition flex flex-col md:flex-row">
+                    <div class="md:w-2/5 h-64 md:h-auto relative">
+                        <img src="https://plus.unsplash.com/premium_photo-1661962360687-3c0592e3d8c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Wall Sawing" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-3/5">
+                        <h3 class="text-2xl font-bold mb-3 text-primary">Wall Sawing</h3>
+                        <p class="text-gray-600 mb-4">Track-mounted cutting systems for precise openings in vertical and steep surfaces. Ideal for heavy reinforced concrete cutting.</p>
+                        <h4 class="font-bold text-sm text-gray-800 mb-2">Key Applications:</h4>
+                        <ul class="text-sm text-gray-600 space-y-1 mb-4 list-disc list-inside">
+                            <li>Door, window, and ventilation openings.</li>
+                            <li>Staircase removals and elevator shaft modifications.</li>
+                            <li>Precision cutting up to 700mm depth.</li>
+                            <li>Dust-free and vibration-free operation.</li>
+                        </ul>
+                        <a href="#contact" class="text-secondary font-bold hover:text-amber-600 inline-flex items-center gap-1">Request Quote <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 3: Slab Cutting / Floor Sawing -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow hover:shadow-lg transition flex flex-col md:flex-row">
+                    <div class="md:w-2/5 h-64 md:h-auto relative">
+                         <img src="https://images.unsplash.com/photo-1535732820275-9ffd998cac22?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Slab Cutting" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-3/5">
+                        <h3 class="text-2xl font-bold mb-3 text-primary">Slab & Floor Sawing</h3>
+                        <p class="text-gray-600 mb-4">High-performance walk-behind saws for cutting horizontal concrete surfaces, roads, and airport runways.</p>
+                        <h4 class="font-bold text-sm text-gray-800 mb-2">Key Applications:</h4>
+                        <ul class="text-sm text-gray-600 space-y-1 mb-4 list-disc list-inside">
+                            <li>Expansion joints and utility trenches.</li>
+                            <li>Demolition of bridge decks and damaged pavement.</li>
+                            <li>Cutting reinforced concrete floors for modification.</li>
+                            <li>Diesel and electric options for indoor/outdoor use.</li>
+                        </ul>
+                        <a href="#contact" class="text-secondary font-bold hover:text-amber-600 inline-flex items-center gap-1">Request Quote <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 4: Controlled Demolition -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow hover:shadow-lg transition flex flex-col md:flex-row">
+                    <div class="md:w-2/5 h-64 md:h-auto relative">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Demolition" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 md:w-3/5">
+                        <h3 class="text-2xl font-bold mb-3 text-primary">Controlled Demolition</h3>
+                        <p class="text-gray-600 mb-4">Safe and efficient removal of concrete structures using specialized robotic equipment and non-explosive methods.</p>
+                        <h4 class="font-bold text-sm text-gray-800 mb-2">Key Applications:</h4>
+                        <ul class="text-sm text-gray-600 space-y-1 mb-4 list-disc list-inside">
+                            <li>Partial removal of walls, floors, and beams.</li>
+                            <li>Robotic demolition for hazardous or confined areas.</li>
+                            <li>Chemical bursting and hydraulic crushing.</li>
+                            <li>Complete debris removal and site clearance.</li>
+                        </ul>
+                        <a href="#contact" class="text-secondary font-bold hover:text-amber-600 inline-flex items-center gap-1">Request Quote <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-primary text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Contact Us</h2>
+            <div class="flex flex-col md:flex-row gap-8 justify-center">
+                <div class="bg-white text-gray-800 p-8 rounded-lg shadow-lg w-full md:w-1/3">
+                    <h3 class="text-2xl font-bold mb-6 text-primary">Get In Touch</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Address</h4>
+                                <p>Mussafah 9, Abu Dhabi, UAE</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Phone</h4>
+                                <p><a href="tel:+971509600595" class="hover:text-secondary font-bold text-lg">+971 50 960 0595</a></p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white shrink-0">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Email</h4>
+                                <p><a href="mailto:luckystarequipmentrental@gmail.com" class="hover:text-secondary break-all">luckystarequipmentrental@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white text-gray-800 p-8 rounded-lg shadow-lg w-full md:w-1/2">
+                    <h3 class="text-2xl font-bold mb-6 text-primary">Send a Message</h3>
+                    <form onsubmit="event.preventDefault(); alert('Thank you! We will contact you shortly.');">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                            <input type="text" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:border-primary" required>
+                            <input type="tel" placeholder="Phone Number" class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:border-primary" required>
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" placeholder="Email Address" class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:border-primary">
+                        </div>
+                        <div class="mb-4">
+                            <textarea rows="4" placeholder="Message / Requirement" class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:border-primary" required></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-secondary hover:bg-amber-600 text-white font-bold py-3 rounded transition">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Lucky Star Core Cutting Services. All rights reserved.</p>
+            <p class="text-sm mt-2">Mussafah 9, Abu Dhabi, UAE</p>
+        </div>
+    </footer>
+
+    <!-- Fixed Mobile Call Button (Visible only on small screens) -->
+    <div class="fixed bottom-4 left-4 right-20 md:hidden z-40">
+        <a href="tel:+971509600595" class="bg-accent text-white w-full py-3 rounded-full shadow-lg flex items-center justify-center gap-2 font-bold animate-pulse">
+            <i class="fa-solid fa-phone"></i> Call Now
+        </a>
+    </div>
+
+    <!-- AI Chatbot Button -->
+    <div id="chatbot-toggle" class="fixed bottom-4 right-4 z-50 cursor-pointer">
+        <div class="bg-primary text-white p-4 rounded-full shadow-lg hover:bg-blue-800 transition transform hover:scale-110 flex items-center justify-center w-14 h-14">
+            <i class="fa-solid fa-robot text-2xl"></i>
+        </div>
+    </div>
+
+    <!-- AI Chatbot Window -->
+    <div id="chatbot-window" class="fixed bottom-20 right-4 z-50 w-80 bg-white rounded-lg shadow-2xl border border-gray-200 hidden flex flex-col h-96">
+        <div class="bg-primary text-white p-4 rounded-t-lg flex justify-between items-center">
+            <h3 class="font-bold flex items-center gap-2"><i class="fa-solid fa-robot"></i> Lucky Star AI</h3>
+            <button id="chatbot-close" class="hover:text-gray-300"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div id="chatbot-messages" class="flex-1 p-4 overflow-y-auto bg-gray-50 text-sm space-y-3">
+            <!-- Messages will appear here -->
+            <div class="flex justify-start">
+                <div class="bg-white border border-gray-200 p-2 rounded-lg rounded-tl-none shadow-sm max-w-[80%]">
+                    Hello! Welcome to Lucky Star Core Cutting. How can I assist you today?
+                </div>
+            </div>
+        </div>
+        <div class="p-3 border-t border-gray-200 bg-white rounded-b-lg">
+            <div class="flex gap-2">
+                <input type="text" id="chatbot-input" placeholder="Type your message..." class="flex-1 p-2 border border-gray-300 rounded text-sm focus:outline-none focus:border-primary">
+                <button id="chatbot-send" class="bg-primary text-white p-2 rounded hover:bg-blue-800"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
